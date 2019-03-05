@@ -15,11 +15,8 @@ homepage = "https://www.rusoto.org/"
 [dependencies]
 futures = "0.1.16"
 xml-rs = "0.7"
+rusoto_core = { git = "https://github.com/hyunsik/rusoto_core.git" }
 
-[dependencies.rusoto_core]
-version = "0.36.0"
-path = "../../core"
-default-features = false
 [dev-dependencies.rusoto_mock]
 version = "0.30.0"
 path = "../../../mock"
